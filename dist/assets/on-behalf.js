@@ -584,8 +584,7 @@ define("on-behalf/templates/about",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
@@ -639,8 +638,7 @@ define("on-behalf/templates/application",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1, helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
@@ -667,8 +665,7 @@ define("on-behalf/templates/components/base-modal",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1;
@@ -687,8 +684,7 @@ define("on-behalf/templates/components/legislator-list-item",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1;
@@ -710,8 +706,7 @@ define("on-behalf/templates/components/search-bar",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1, helper, options, escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing, self=this;
@@ -747,8 +742,7 @@ define("on-behalf/templates/components/typeahead-component",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1, helper, options, self=this, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
@@ -800,8 +794,7 @@ define("on-behalf/templates/index",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1, helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
@@ -835,8 +828,7 @@ define("on-behalf/templates/legislator",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1, helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
@@ -932,8 +924,7 @@ define("on-behalf/templates/search",
   function(__dependency1__, __exports__) {
     "use strict";
     var Ember = __dependency1__["default"];
-    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-    /**/) {
+    __exports__["default"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
     this.compilerInfo = [4,'>= 1.0.0'];
     helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
       var buffer = '', stack1, helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
@@ -1040,7 +1031,7 @@ define("on-behalf/tests/adapters/application.jshint",
     "use strict";
     module('JSHint - adapters');
     test('adapters/application.js should pass jshint', function() { 
-      ok(true, 'adapters/application.js should pass jshint.'); 
+      ok(false, 'adapters/application.js should pass jshint.\nadapters/application.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nadapters/application.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\nadapters/application.js: line 4, col 1, \'export\' is only available in ES6 (use esnext option).\n\n3 errors'); 
     });
   });
 define("on-behalf/tests/app.jshint", 
@@ -1049,7 +1040,7 @@ define("on-behalf/tests/app.jshint",
     "use strict";
     module('JSHint - .');
     test('app.js should pass jshint', function() { 
-      ok(true, 'app.js should pass jshint.'); 
+      ok(false, 'app.js should pass jshint.\napp.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\napp.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\napp.js: line 3, col 1, \'import\' is only available in ES6 (use esnext option).\napp.js: line 4, col 1, \'import\' is only available in ES6 (use esnext option).\napp.js: line 16, col 1, \'export\' is only available in ES6 (use esnext option).\n\n5 errors'); 
     });
   });
 define("on-behalf/tests/components/base-modal.jshint", 
@@ -1058,7 +1049,7 @@ define("on-behalf/tests/components/base-modal.jshint",
     "use strict";
     module('JSHint - components');
     test('components/base-modal.js should pass jshint', function() { 
-      ok(true, 'components/base-modal.js should pass jshint.'); 
+      ok(false, 'components/base-modal.js should pass jshint.\ncomponents/base-modal.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\ncomponents/base-modal.js: line 4, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/components/legislator-list-item.jshint", 
@@ -1067,7 +1058,7 @@ define("on-behalf/tests/components/legislator-list-item.jshint",
     "use strict";
     module('JSHint - components');
     test('components/legislator-list-item.js should pass jshint', function() { 
-      ok(true, 'components/legislator-list-item.js should pass jshint.'); 
+      ok(false, 'components/legislator-list-item.js should pass jshint.\ncomponents/legislator-list-item.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\ncomponents/legislator-list-item.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/components/search-bar.jshint", 
@@ -1076,7 +1067,7 @@ define("on-behalf/tests/components/search-bar.jshint",
     "use strict";
     module('JSHint - components');
     test('components/search-bar.js should pass jshint', function() { 
-      ok(true, 'components/search-bar.js should pass jshint.'); 
+      ok(false, 'components/search-bar.js should pass jshint.\ncomponents/search-bar.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\ncomponents/search-bar.js: line 4, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/controllers/index.jshint", 
@@ -1085,7 +1076,7 @@ define("on-behalf/tests/controllers/index.jshint",
     "use strict";
     module('JSHint - controllers');
     test('controllers/index.js should pass jshint', function() { 
-      ok(true, 'controllers/index.js should pass jshint.'); 
+      ok(false, 'controllers/index.js should pass jshint.\ncontrollers/index.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\ncontrollers/index.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/controllers/search.jshint", 
@@ -1094,7 +1085,7 @@ define("on-behalf/tests/controllers/search.jshint",
     "use strict";
     module('JSHint - controllers');
     test('controllers/search.js should pass jshint', function() { 
-      ok(true, 'controllers/search.js should pass jshint.'); 
+      ok(false, 'controllers/search.js should pass jshint.\ncontrollers/search.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\ncontrollers/search.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/helpers/format-dollars.jshint", 
@@ -1103,7 +1094,7 @@ define("on-behalf/tests/helpers/format-dollars.jshint",
     "use strict";
     module('JSHint - helpers');
     test('helpers/format-dollars.js should pass jshint', function() { 
-      ok(true, 'helpers/format-dollars.js should pass jshint.'); 
+      ok(false, 'helpers/format-dollars.js should pass jshint.\nhelpers/format-dollars.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nhelpers/format-dollars.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/helpers/resolver", 
@@ -1152,7 +1143,7 @@ define("on-behalf/tests/models/contributor.jshint",
     "use strict";
     module('JSHint - models');
     test('models/contributor.js should pass jshint', function() { 
-      ok(true, 'models/contributor.js should pass jshint.'); 
+      ok(false, 'models/contributor.js should pass jshint.\nmodels/contributor.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\nmodels/contributor.js: line 16, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/models/industry.jshint", 
@@ -1161,7 +1152,7 @@ define("on-behalf/tests/models/industry.jshint",
     "use strict";
     module('JSHint - models');
     test('models/industry.js should pass jshint', function() { 
-      ok(true, 'models/industry.js should pass jshint.'); 
+      ok(false, 'models/industry.js should pass jshint.\nmodels/industry.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\nmodels/industry.js: line 16, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/models/legislator.jshint", 
@@ -1170,7 +1161,7 @@ define("on-behalf/tests/models/legislator.jshint",
     "use strict";
     module('JSHint - models');
     test('models/legislator.js should pass jshint', function() { 
-      ok(true, 'models/legislator.js should pass jshint.'); 
+      ok(false, 'models/legislator.js should pass jshint.\nmodels/legislator.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\nmodels/legislator.js: line 140, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/models/location.jshint", 
@@ -1179,7 +1170,7 @@ define("on-behalf/tests/models/location.jshint",
     "use strict";
     module('JSHint - models');
     test('models/location.js should pass jshint', function() { 
-      ok(true, 'models/location.js should pass jshint.'); 
+      ok(false, 'models/location.js should pass jshint.\nmodels/location.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\nmodels/location.js: line 12, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/on-behalf/tests/helpers/resolver.jshint", 
@@ -1233,7 +1224,7 @@ define("on-behalf/tests/router.jshint",
     "use strict";
     module('JSHint - .');
     test('router.js should pass jshint', function() { 
-      ok(true, 'router.js should pass jshint.'); 
+      ok(false, 'router.js should pass jshint.\nrouter.js: line 2, col 1, \'import\' is only available in ES6 (use esnext option).\nrouter.js: line 3, col 1, \'import\' is only available in ES6 (use esnext option).\nrouter.js: line 18, col 1, \'export\' is only available in ES6 (use esnext option).\n\n3 errors'); 
     });
   });
 define("on-behalf/tests/routes/about.jshint", 
@@ -1242,7 +1233,7 @@ define("on-behalf/tests/routes/about.jshint",
     "use strict";
     module('JSHint - routes');
     test('routes/about.js should pass jshint', function() { 
-      ok(true, 'routes/about.js should pass jshint.'); 
+      ok(false, 'routes/about.js should pass jshint.\nroutes/about.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nroutes/about.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/routes/application.jshint", 
@@ -1251,7 +1242,7 @@ define("on-behalf/tests/routes/application.jshint",
     "use strict";
     module('JSHint - routes');
     test('routes/application.js should pass jshint', function() { 
-      ok(true, 'routes/application.js should pass jshint.'); 
+      ok(false, 'routes/application.js should pass jshint.\nroutes/application.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nroutes/application.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/routes/index.jshint", 
@@ -1260,7 +1251,7 @@ define("on-behalf/tests/routes/index.jshint",
     "use strict";
     module('JSHint - routes');
     test('routes/index.js should pass jshint', function() { 
-      ok(true, 'routes/index.js should pass jshint.'); 
+      ok(false, 'routes/index.js should pass jshint.\nroutes/index.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nroutes/index.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/routes/legislator.jshint", 
@@ -1269,7 +1260,7 @@ define("on-behalf/tests/routes/legislator.jshint",
     "use strict";
     module('JSHint - routes');
     test('routes/legislator.js should pass jshint', function() { 
-      ok(true, 'routes/legislator.js should pass jshint.'); 
+      ok(false, 'routes/legislator.js should pass jshint.\nroutes/legislator.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nroutes/legislator.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/routes/search.jshint", 
@@ -1278,7 +1269,7 @@ define("on-behalf/tests/routes/search.jshint",
     "use strict";
     module('JSHint - routes');
     test('routes/search.js should pass jshint', function() { 
-      ok(true, 'routes/search.js should pass jshint.'); 
+      ok(false, 'routes/search.js should pass jshint.\nroutes/search.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nroutes/search.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/serializers/legislator.jshint", 
@@ -1287,7 +1278,7 @@ define("on-behalf/tests/serializers/legislator.jshint",
     "use strict";
     module('JSHint - serializers');
     test('serializers/legislator.js should pass jshint', function() { 
-      ok(true, 'serializers/legislator.js should pass jshint.'); 
+      ok(false, 'serializers/legislator.js should pass jshint.\nserializers/legislator.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nserializers/legislator.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/tests/test-helper", 
@@ -1374,7 +1365,7 @@ define("on-behalf/tests/views/typeahead-option.jshint",
     "use strict";
     module('JSHint - views');
     test('views/typeahead-option.js should pass jshint', function() { 
-      ok(true, 'views/typeahead-option.js should pass jshint.'); 
+      ok(false, 'views/typeahead-option.js should pass jshint.\nviews/typeahead-option.js: line 1, col 1, \'import\' is only available in ES6 (use esnext option).\nviews/typeahead-option.js: line 3, col 1, \'export\' is only available in ES6 (use esnext option).\n\n2 errors'); 
     });
   });
 define("on-behalf/views/typeahead-option", 
